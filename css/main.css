@@ -1,12 +1,23 @@
+
+html {
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 body {
   margin: 0;
   background-color: #dbd6cf;
-  line-height: 1.5
 }
 
 h1 {
-  font-family: 'Bevan', cursive;
+  font-family: Bevan, serif;
   color: #fff;
+  padding: 0;
+  margin: .3em;
 }
 
 header {
@@ -14,14 +25,15 @@ header {
   background-color: #79756f;
   padding-bottom: .6em;
   padding-top: .6em;
-  border-top: .3em solid;
-  border-bottom: .3em solid;
+  border-top: .1em solid;
+  border-bottom: .1em solid;
   border-color: #595652;
 }
 
 li {
   display: inline-block;
   font-family: sans-serif;
+  list-style-type: lower-latin;
 }
 
 a {
